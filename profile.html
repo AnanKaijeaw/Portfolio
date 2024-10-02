@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="banner.png" alt="Banner" class="responsive">
+        </div>
+    </div>
+    <header class="header">
+        <nav>
+            <div class="Logo">My PortFolio</div>
+            <ul>
+                <li><a href="main.html">หน้าแรก</a></li>
+                <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                <li><a href="project.html">ผลงาน</a></li>
+                <li><a href="certificate.html">เกียรติบัตร</a></li>
+                <li><a href="activity.html">กิจกรรม</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > document.querySelector('.banner').offsetHeight) {
+                header.classList.add('fixed');
+            } else {
+                header.classList.remove('fixed');
+            }
+        });
+    </script>
+
+</head>
+<body>
+    <div class="container4">
+        <header>
+            <img src="อนันต์1.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>นายอนันต์</h1>
+            <p class="title">นักเรียนระดับชั้นมัธยมศึกษาปีที่ 6 <br> โรงเรียนสามเสนวิทยาลัย</p>
+        </header>
+
+        <section class="about">
+            <h2><img src="i02.png" width = 50 px> &nbsp; About Me</h2>
+            <p>
+                <ul>
+                    <li>ชื่อ :  นายอนันต์</li>
+                    <li>ชื่อเล่น : ไข่เจียว</li>
+                    <li>เกิด  :  10  มิถุนายน  2549</li>
+                    <li>หมู่เลือด  :  โอ </li>
+                    <li>ศาสนา : พุทธ</li>
+                    <li>งานอดิเรก : อ่านหนังสือ ฟังเพลง  ดูยูทูป</li>
+                    <li>คติประจำใจ : จงทำให้ดีที่สุดและมีสติอยู่กับปัจจุบัน </li>
+                       
+                </p>
+        </section>
+
+        <section class="about">
+            <h2><img src="i07.png" width = 50 px> &nbsp; Skill</h2>
+            <p>
+            <ul>
+                <li>มีภาวะความเป็นผู้นำ</li>
+                <li>ทำงานร่วมกับผู้อื่นได้ดี</li>
+                <li>มีทัศนคติเชิงบวก</li>
+                <li>สามารถบริหารเวลาได้ดี</li>
+                <li>มีทักษะด้านสื่อสารและประสานงาน</li>
+                <li>มีความสามารถในการปรับตัวและความยืดหยุ่น</li>
+                <li>ความสามารถพิเศษ </li>
+                    <ul type = "circle">
+                        <li>งานพิธีกรทางศาสนาและในพิธีการต่าง ๆ </li>
+                        <li>เขียนเรียงความ</li>
+            </p>
+        </section>
+
+        <section class="experience">
+            <h2><img src="i01.png" width = 50 px> &nbsp; Education</h2>
+            <center><img src="edu01.png" width = 350 px></center>
+            <div class="image-container2">
+                <img src="edu02.jpg" alt="กิจกรรม 1">
+                &nbsp;&nbsp;<img src="edu03.jpg" alt="กิจกรรม 2">
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2><img src="i03.png" width = 50 px> &nbsp; Contact</h2>
+            <p><img src="i04.png" width = 30 px> &nbsp; 094-3432738 <br> 
+            <img src="i05.png" width = 30 px> &nbsp; anannosurname@gmail.com <br> 
+            <img src="i06.png" width = 30 px> &nbsp; 11 ซ.อารีย์สัมพันธ์ 3 ถ. พหลโยธิน 5 แขวงพญาไท เขตพญาไท กรุงเทพมหานคร 10400</p>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
+
