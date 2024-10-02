@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="banner.png" alt="Banner" class="responsive">
+        </div>
+    </div>
+    <header class="header">
+        <nav>
+            <div class="Logo">My PortFolio</div>
+            <ul>
+                <li><a href="main.html">หน้าแรก</a></li>
+                <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                <li><a href="project.html">ผลงาน</a></li>
+                <li><a href="certificate.html">เกียรติบัตร</a></li>
+                <li><a href="activity.html">กิจกรรม</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > document.querySelector('.banner').offsetHeight) {
+                header.classList.add('fixed');
+            } else {
+                header.classList.remove('fixed');
+            }
+        });
+    </script>
+    <div class="content">
+        <center><img src="P01.png" width=50%></center>
+    </div>   
+    <center><img src="01.gif" width=50%></center>
+    <br>
+    <br>
+    <div class="box2">
+        <center><h1>Statement of Propose</h1></center>
+    </div>
+    <br>
+        <center><img src="P02.png" width=50%></center>
+</body>
+</html>
